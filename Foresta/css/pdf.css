@@ -1,0 +1,36 @@
+#pdf-viewer-modal .modal-dialog {
+			max-width: 90%;
+			margin: 1.75rem auto;
+		}
+		#pdf-viewer-modal .modal-content {
+			border-radius: 0;
+			box-shadow: none;
+			border: none;
+		}
+		#pdf-viewer-modal .modal-header {
+			border-bottom: none;
+		}
+		#pdf-viewer-modal .modal-body {
+			height: 70vh;
+			overflow-y: auto;
+			padding: 0;
+		}
+		#pdf-viewer-modal .modal-body iframe {
+			width: 100%;
+			height: 100%;
+			border: none;
+		}
+		.container {
+		  display: flex;
+		  justify-content: space-between;
+		  align-items: center;
+		}
+
+		.image {
+		  flex-basis: 40%;
+		}
+
+		.description {
+		  flex-basis: 50%;
+		  text-align: left;
+		}

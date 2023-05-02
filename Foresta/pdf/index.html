@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Il mio Curriculum</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">Sito di Foresta Pietro</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="#esperienza">Esperienza Lavorativa</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#istruzione">Istruzione</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#abilita">Abilità</a>
+						</li>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contatti">Istruzione</a>
+					</li>
+					</ul>
+					<ul class="navbar-nav ms-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="pdf/CurriculumVitae.pdf" download>Download PDF</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<div class="pdf-container four columns">
+		<iframe src="pdf/CurriculumVitae.pdf" style="max-width: 1920px; max-height: 1080px;"></iframe>
+	</div>
+
+	<div class="container">
+		<main class="main-content">
+			<section id="esperienza">
+				<h2>Esperienza Lavorativa</h2>
+				<p>Descrizione della mia esperienza lavorativa passata.</p>
+			</section>
+			<section id="istruzione">
+				<h2>Istruzione</h2>
+				<p>Descrizione della mia istruzione passata.</p>
+			</section>
+			<section id="abilita">
+				<h2>Abilità</h2>
+				<p>Elenco delle mie abilità.</p>
+			</section>
+		</main>
+	</div>
+	<div id="curriculum-modal">
+		<a href="#" id="btn-close">&times;</a>
+	</div>
+	<script src="js/script.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
