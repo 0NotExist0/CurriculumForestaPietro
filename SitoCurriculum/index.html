@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Il mio Curriculum</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/pdf.css">
+
+	<style>
+	    /* Imposta l'immagine di sfondo */
+	    body {
+	      background-image: url('immagini/background.jpg');
+	      background-repeat: no-repeat;
+	      background-size: cover;
+	      background-position: center center;
+	    }
+	  </style>
+
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">Sito Curriculum</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ms-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="pdf/CurriculumVitae.pdf" download>Download Curriculum di Pietro in PDF</a>
+						</li>
+					</ul>
+				</div>
+
+
+			</div>
+		</nav>
+	</header>
+
+	<inizio>
+		<section curriculum>
+			<div class="container gray-background">
+			  <div class="image">
+			    <img src="immagini/me.jpg" alt="La tua foto">
+			  </div>
+			  <div class="description gray-text">
+			    <h2>Pietro Foresta</h2>
+					<h1 height="1px"; weight="1px";>
+						Residenza italiana:
+					</h1>
+			    <p> Cuorgné (TO) in Via Valle Sacra, 21/C</p><br>
+					<h1>
+						Dimora Svizzera:
+					</h1>
+					<p>Pambio-Noranco, 6915 Lugano, Svizzera</p><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+			</div>
+								<div class="container">
+									<h3>Contatto </h3><br>
+									<form action="js/send-email.js" method="post">
+										<div class="mb-3">
+											<label for="name" class="form-label">Nome:</label>
+											<input type="text" id="name" name="name" class="form-control" required>
+										</div>
+										<div class="mb-3">
+											<label for="email" class="form-label">Email:</label>
+											<input type="email" id="email" name="email" class="form-control" required>
+										</div>
+										<div class="mb-3">
+											<label for="message" class="form-label">Messaggio:</label>
+											<textarea id="message" name="message" class="form-control" rows="4" cols="50"></textarea>
+										</div>
+										<button type="submit" class="btn btn-primary">Invia</button>
+									</form>
+								</div>
+
+
+		</section>
+
+	</inizio>
+
+	<div class="container">
+        <button class="btn btn-custom" type="button" data-toggle="modal" data-target="#esperienza-descrizione">
+            Apri/Chiudi Esperienza Lavorativa
+        </button>
+        <div class="modal fade" id="esperienza-descrizione" tabindex="-1" role="dialog" aria-labelledby="esperienza-descrizione-title" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title" id="esperienza-descrizione-title">Esperienze lavorative</h2>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <h2>Esperienze lavorative</h2>
+
+			<!-- Esperienza 2023: Segretario/Web Developer presso "Due Emme" -->
+			<h1>2023</h1>
+			<p>Segretario/Web Developer presso "Due Emme" (San Giusto) per 2 mesi</p>
+
+			<!-- Esperienza 2023: Tecnico Elettronico presso Flash Map -->
+			<h1>2023</h1>
+			<p>Tecnico Elettronico (rimappatura di centraline) presso Flash Map per 2 mesi</p>
+
+			<!-- Esperienza 2022: OPL presso Sicuritalia -->
+			<h1>2022</h1>
+			<p>OPL (Guardia di sicurezza) presso Sicuritalia a Genova per 1 mese</p>
+
+			<!-- Esperienza 2022: Segretario presso Polygon Segretario/BackOffice -->
+			<h1>2022</h1>
+			<p>Segretario presso Polygon Segretario/BackOffice [Svizzera – Ticino] per 1 mese</p>
+
+			<!-- Esperienza 2022: Cameriere presso "Osteria dei viaggiatori" -->
+			<h1>2022</h1>
+			<p>Cameriere presso "Osteria dei viaggiatori" (ristorante a Noasca) per più di un mese</p>
+
+			<!-- Esperienza 2021: Addetto magazzino presso Amazon -->
+			<h1>2021</h1>
+			<p>Addetto magazzino (Controllo qualità) presso Amazon (Torrazza Piemonte) tramite GiGroup per circa 3 mesi</p>
+
+			<!-- Esperienza 2021: Addetto ufficio tecnico presso Esse Service -->
+			<h1>2021</h1>
+			<p>Addetto ufficio tecnico, addetto centralino per presa ordini e addetto modellazione 3D presso Esse Service (azienda di produzione di rinforzi per autoveicoli) (Sparone) per un mese</p>
+
+			<!-- Esperienza 2020: Addetto centralino e call center outbound -->
+			<h1>2020</h1>
+			<p>Addetto centralino e call center outbound presso azienda di servizi energetici (Ivrea) per circa 3 mesi</p>
+
+			<!-- Esperienze 2018-2019: Vari ruoli presso La Cascata -->
+			<h1>2018-2019</h1>
+			<p>Aiuto cuoco, aiuto bar, cameriere, addetto pulizie, addetto servizio ai tavoli, addetto presa ordini presso ristorante e albergo La Cascata (Noasca)</p>
+
+			<!-- Esperienza 2018: Stage presso Expert -->
+			<h1>2018</h1>
+			<p>Stage scolastico come addetto vendita, gestione ordini, recupero prodotti in magazzino e consigli alla clientela presso Expert (negozio di elettrodomestici) (Rivarolo Canavese) per circa 3 mesi</p>
+
+			<h2>STAGES</h2>
+			<p>
+			2018 Stage scolastico come addetto vendita, gestione ordini, recupero prodotti in magazzino e
+			consigli alla clientela presso Expert (negozio di elettrodomestici) (Rivarolo Canavese) per circa 3 mesi
+			2017 Stage scolastico come addetto vendita, assistenza, gestione ordini presso Punto Copia
+			(negozio informatico) (Favria) per circa 3 mesi
+			Ambulante addetto vendita al dettaglio e aiuto carico e scarico presso banchi vari al mercato
+			(abbigliamento, frutta e verdura, …)
+			</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+			<button class="btn btn-custom" type="button" data-toggle="modal" data-target="#esperienza-modal">
+				Competenze
+			</button>
+			<div class="modal fade" id="esperienza-modal" tabindex="-1" aria-labelledby="esperienza-modal-label" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="esperienza-modal-label">Competenze lavorative</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<h3>Sono molto bravo, con solide competenze nel Pacchetto Office e conoscenze di base della programmazione in C++, html, css, php e javascript. Mi occupo di soluzioni a sostituzioni software, aggiornamenti del sistema operativo e dei vari driver per il sistema operativo Windows. Grazie alla mia ottima gestione del personal computer, sono in grado di gestire gli aggiornamenti e la pulizia in modo che sia sempre funzionante, individuando e eliminando anche virus che rallentano le prestazioni di sistema.
+
+								Ho una grande autonomia e dimestichezza nella navigazione in internet e nella gestione della posta elettronica e dei social network. Inoltre, sono abile nel fotoritocco, ricreando pezzi mancati di fotografie e aggiustando fotografie distorte, scolorite o colorando foto da bianco e nero a colori. So creare fotoritocchi fantasiosi o reali di ogni tipo di creazione richiesta.
+
+								Sono in grado di inquadrare qualsiasi obiettivo sia nel cinema e quindi nei video, sia nella fotografia, creando video o fotografie stupende e paesaggi mozzafiato, sia per video, film, cortometraggi, talent show, documentari, serie, anche con effetti di fotoritocco, sia semplici fotografie per libri-ricordi, libri in generale, riviste, figurine, momenti memorabili, feste, sport, foto di famiglia, o anche a dettagli animali; insomma tutto ciò che è visibile in camera.
+
+								Ho una buona conoscenza degli ambienti di sviluppo come Photoshop, Gimp, Unity 3D e Unreal Engine, con autonomia nella creazione di paesaggi, oggetti e personaggi 3D, vari effetti luci, texture ed effetti particellari. Ho anche una buona conoscenza degli ambienti di sviluppo musica come FL Studio e Ableton, con produzione di musica elettronica.
+							</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<button type="button" class="btn btn-custom" data-toggle="modal" data-target="#pdf-viewer-modal">
+		Apri Anteprima PDF del curriculum
+	</button>
+</div>
+</div>
+	<br><br><br>
+
+	<!-- PDF Viewer Modal -->
+	<div class="modal fade" id="pdf-viewer-modal" tabindex="-1" role="dialog" aria-labelledby="pdf-viewer-modal-label" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="pdf-viewer-modal-label">Visore di pdf di Pietro</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<iframe src="pdf/CurriculumVitae.pdf" frameborder="0"></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- jQuery, Popper.js, Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+
+
+		</main>
+	</div>
+
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+</body>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h3>Informazioni principali</h3>
+        <p>Sono automunito,</p>
+				<p>ho la patente,</p>
+				<p>sono nato il 15 marzo 2000 a cuorgnè(To)</p>
+      </div>
+			<br>
+      <div class="col-md-4">
+        <h3>Indirizzo</h3>
+        <p>Via Valle Sacra 21/c - Torino</p>
+      </div>
+      <div class="col-md-4">
+        <h3>Social</h3>
+        <ul>
+					<li><a href="https://www.facebook.com/pietro.foredta">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <p>Email: pietro.foresta15@gmail.com - Telefono: 3278950127</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+</html>
